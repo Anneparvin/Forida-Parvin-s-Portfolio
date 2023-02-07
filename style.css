@@ -78,6 +78,7 @@ main{
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
+    margin-top: 80px;
 }
 .section-description{
     color: #757575;
@@ -103,7 +104,7 @@ main{
 }
 .skill{
     background: #fff8f3;
-    box-shadow: 0 6px 50px rgba(0,0,0,0.06);
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
     border-radius: 5px;
     padding: 30px;
 }
@@ -121,3 +122,53 @@ main{
     color: #757575;
 }
 /* a summary of resume */
+.resume-content{
+    display: flex;
+    gap: 25px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+font-size: 25px;
+font-weight: 700;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 60px;
+}
+/* contact me */
+.contact{
+    display: flex;
+    padding: 130px 200px;
+    gap: 100px;
+    background: #fff8f3;
+    margin-top: 50px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 22px;
+}
+input{
+    height: 24px;
+}
+.contact a{
+    text-decoration: none;
+}
